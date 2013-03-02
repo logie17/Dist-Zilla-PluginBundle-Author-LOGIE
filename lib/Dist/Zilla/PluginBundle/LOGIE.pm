@@ -141,7 +141,7 @@ has _repository_host_map => (
                 repository_url  => sprintf('git://github.com/%s/%s.git', $self->github_user, $self->github_name),
                 repository_web  => sprintf('https://github.com/%s/%s', $self->github_user, $self->github_name),
             },
-	}
+    }
     },
     );
 
@@ -261,7 +261,7 @@ has plugin_options => (
             'Git::Commit' => {
                 commit_msg => 'changelog',
             },
-	    );
+        );
 
         $opts{Metadata} = {
             dynamic_config => 1,
@@ -304,12 +304,12 @@ sub configure {
             -phase       => 'test',
             -type        => 'requires',
             'Test::Most' => '0',
-	  } ]
-	);
+      } ]
+    );
     $self->add_plugins(
         map { [ $_ => ($self->plugin_options->{$_} || {}) ] }
-	@{ $self->_plugins },
-	);
+    @{ $self->_plugins },
+    );
 }
 
 =head1 BUGS
