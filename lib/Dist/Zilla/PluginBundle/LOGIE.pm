@@ -364,5 +364,3 @@ L<http://search.cpan.org/dist/Dist-Zilla-PluginBundle-LOGIE>
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
-
-1;
