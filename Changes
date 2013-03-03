@@ -2,6 +2,8 @@ Revision history for Dist-Zilla-PluginBundle-LOGIE
 
 {{$NEXT}}
 
+    - Added Twitter plugin
+
 0.01  2013-03-02
 
     - Initial release

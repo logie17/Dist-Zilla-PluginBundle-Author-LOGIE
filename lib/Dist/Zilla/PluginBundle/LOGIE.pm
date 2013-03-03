@@ -70,6 +70,10 @@ My plugin bundle. Roughly equivalent to:
     [PodWeaver]
 
     [UploadToCPAN]
+    [Twitter]
+    tweet_url = https://metacpan.org/release/{{$AUTHOR_UC}}/{{$DIST}}-{{$VERSION}}/
+    tweet = Released {{$DIST}}-{{$VERSION}}{{$TRIAL}} {{$URL}}
+    url_shortener = TinyURL
 
 =cut
 
@@ -238,6 +242,9 @@ has _plugins => (
             ),
             ($self->is_task      ? 'TaskWeaver'  : 'PodWeaver'),
             ($self->is_test_dist ? 'FakeRelease' : 'UploadToCPAN'),
+            qw(
+                Twitter
+            ),
         ]
     },
     );
