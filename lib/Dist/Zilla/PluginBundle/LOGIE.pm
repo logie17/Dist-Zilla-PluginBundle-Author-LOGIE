@@ -192,7 +192,6 @@ has is_test_dist => (
     default => sub {
         my $self = shift;
         return 1 if $ENV{DZIL_FAKE_RELEASE};
-        return $self->dist =~ /^Foo-/ ? 1 : 0
     },
     );
 
