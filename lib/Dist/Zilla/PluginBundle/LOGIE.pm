@@ -1,4 +1,4 @@
-package Dist::Zilla::PluginBundle::LOGIE;
+package Dist::Zilla::PluginBundle::Author::LOGIE;
 use Moose;
 # ABSTRACT: Dist::Zilla plugins for me
 
@@ -9,7 +9,7 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 
   # dist.ini
   [@LOGIE]
-  dist = Dist-Zilla-PluginBundle-LOGIE
+  dist = Dist-Zilla-PluginBundle-Author-LOGIE
   repository = github
 
 =head1 DESCRIPTION
@@ -324,7 +324,7 @@ No known bugs.
 
 Please report any bugs through RT: email
 C<bug-dist-zilla-pluginbundle-logie at rt.cpan.org>, or browse to
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-PluginBundle-LOGIE>.
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Dist-Zilla-PluginBundle-Author-LOGIE>.
 
 =head1 SEE ALSO
 
@@ -336,7 +336,7 @@ L<Task::BeLike::LOGIE>
 
 You can find this documentation for this module with the perldoc command.
 
-    perldoc Dist::Zilla::PluginBundle::LOGIE
+    perldoc Dist::Zilla::PluginBundle::Author::LOGIE
 
 You can also look for information at:
 
@@ -344,19 +344,19 @@ You can also look for information at:
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Dist-Zilla-PluginBundle-LOGIE>
+L<http://annocpan.org/dist/Dist-Zilla-PluginBundle-Author-LOGIE>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Dist-Zilla-PluginBundle-LOGIE>
+L<http://cpanratings.perl.org/d/Dist-Zilla-PluginBundle-Author-LOGIE>
 
 =item * RT: CPAN's request tracker
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-PluginBundle-LOGIE>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-PluginBundle-Author-LOGIE>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Dist-Zilla-PluginBundle-LOGIE>
+L<http://search.cpan.org/dist/Dist-Zilla-PluginBundle-Author-LOGIE>
 
 =back
 
