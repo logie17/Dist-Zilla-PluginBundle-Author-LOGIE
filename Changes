@@ -1,6 +1,8 @@
-Revision history for Dist-Zilla-PluginBundle-LOGIE
+Revision history for Dist-Zilla-PluginBundle-Author-LOGIE
 
 {{$NEXT}}
+
+    - Renamed to Dist-Zilla-PluginBundle-Author-LOGIE
 
 0.03  2013-03-03
 
